@@ -14,7 +14,7 @@ def main():
     st.set_page_config(page_title="CSV CHATGPT")
     st.header("CHATGPT FOR CSV")
 
-    user_csv=st.file_uploader(label="Upload The CSV file",type="CSV")
+    user_csv=st.file_uploader("Upload The CSV file",type="csv")
 
 # action when user has entered his csv
     if user_csv is not None:

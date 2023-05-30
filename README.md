@@ -6,7 +6,8 @@ This project uses LangChain, OpenAI API, and Streamlit and answer queries relate
 ## Installation:
 * Create a virtual environment using `python -m venv <name-of-your-env>`
 * Activate the environment using `./<virtual-env-name>/scripts/activate`
-
+* pip install the requirements
+* To run the main.py streamlit run main.py
  
 
 ## Dependencies:
